@@ -1,0 +1,4 @@
+npm install react@17 react-dom@17 --save
+npm install @babel/core @babel/preset-env @babel/preset-react
+npm install —save-dev webpack@5 webpack-cli@4 webpack-dev-server@4
+npm install babel-loader html-loader html-webpack-plugin
