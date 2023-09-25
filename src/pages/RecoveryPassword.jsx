@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/RecoveryPassword.scss';
-
+import icoEmail from '@icons/email.svg';
 const RecoveryPassword = () => {
     return(
         <div className="login">
@@ -11,7 +11,7 @@ const RecoveryPassword = () => {
           <p className="subtitle">Please check your inbox for instructions on how to reset the password</p>
     
           <div className="email-image">
-            <img src="./icons/email.svg" alt="email"/>
+            <img src={icoEmail} alt="email"/>
           </div>
     
           <button className="primary-button login-button">Login</button>
